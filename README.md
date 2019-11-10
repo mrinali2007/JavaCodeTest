@@ -27,7 +27,12 @@ Step 2: Running the JPADataLayer microservice in background
         a.) Run the follwing command to start the microservice 
               nohup java -jar dataLayer-0.0.1-SNAPSHOT.jar &
               
-        b.) Microservice should be up & running at localhost:8080
+        b.) Microservice should be up & running at localhost:8080 with 5 endpoints
+            POST /person/add
+            PUT /person/edit/{id}
+            GET /person/count
+            GET /person/list
+            POST /person/delete/{id}
 
 Step 3: Running the JavaCommandLine project
 
