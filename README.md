@@ -5,6 +5,7 @@ This is the Repository mainting Java command line maven project to perform vario
 Running this project involves three steps:- 
 
 Step 1: Installing mongo db locally
+
     a.) Download the MongoDB .tar.gz tarball. Download the tarball for your system from the MongoDB Download Center.
     b.) Extract the files from the downloaded archive.
         tar -zxvf mongodb-macos-x86_64-4.2.1.tgz
