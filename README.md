@@ -6,7 +6,8 @@ Running this project involves three steps:-
 
 Step 1: Installing mongo db locally
 
-    a.) Download the MongoDB .tar.gz tarball. Download the tarball for your system from the MongoDB Download Center.
+    a.) Download the MongoDB .tar.gz tarball. Download the tarball for your system from the 
+        [MongoDB Download Center](https://www.mongodb.com/download-center/community?jmp=docs).
     b.) Extract the files from the downloaded archive.
         tar -zxvf mongodb-macos-x86_64-4.2.1.tgz
     c.) Ensure the binaries are in a directory listed in your PATH environment variable.
