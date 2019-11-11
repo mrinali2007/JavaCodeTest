@@ -1,7 +1,14 @@
 # JavaCodeTest
 
-This is the Repository mainting Java command line maven project to perform various operations as per user input and JPA data layer maven project to perform data operation request received from command line into mongo db.
+This is the Repository mainting Java command line maven project to perform various operations as per user input under folder person and JPA data layer maven project to perform data operation request received from command line into mongo db under project dataLayer. 
 
+JARS to execute:- 
+
+dataLayer-0.0.1-SNAPSHOT.jar --> To start the micorservice for data persistence layer.
+person-0.0.1-SNAPSHOT.jar  -->  To start the client layer for command line operation.
+
+Download Mongo :- 
+[MongoDB Download Center](https://www.mongodb.com/download-center/community?jmp=docs).
 Running this project involves three steps:- 
 
 Step 1: Installing mongo db locally
@@ -18,7 +25,7 @@ Step 1: Installing mongo db locally
     e.) Create the data directory
         mkdir -p /data/db
     d.) chmod 755 /data/* and chmod 755 /data
-    e.) mongod
+    e.) Run mongod
     
 
 
@@ -38,4 +45,12 @@ Step 2: Running the JPADataLayer microservice in background
 Step 3: Running the JavaCommandLine project
 
         a.) run the following command to finally start the project for command line operations
-            java -jar JavaApp-0.0.1.jar
+            java -jar person-0.0.1-SNAPSHOT.jar
+            
+            
+Step 4: Once you exit the command line application stop below two process:-
+
+     1. Exit mongo db terminal by CTRL+C
+     2. Kill the java process of running the data layer by 
+         ps -ef|grep java
+         kill -9 <process id>
