@@ -4,8 +4,9 @@ This is the Repository mainting Java command line maven project to perform vario
 
 JARS to execute:- 
 
-dataLayer-0.0.1-SNAPSHOT.jar --> To start the micorservice for data persistence layer.
-person-0.0.1-SNAPSHOT.jar  -->  To start the client layer for command line operation.
+1. dataLayer-0.0.1-SNAPSHOT.jar --> To start the micorservice for data persistence layer.
+
+2. person-0.0.1-SNAPSHOT.jar  -->  To start the client layer for command line operation.
 
 Download Mongo :- 
 [MongoDB Download Center](https://www.mongodb.com/download-center/community?jmp=docs).
