@@ -9,12 +9,12 @@ person-0.0.1-SNAPSHOT.jar  -->  To start the client layer for command line opera
 
 Download Mongo :- 
 [MongoDB Download Center](https://www.mongodb.com/download-center/community?jmp=docs).
+
 Running this project involves three steps:- 
 
 Step 1: Installing mongo db locally
 
-    a.) Download the MongoDB .tar.gz tarball. Download the tarball for your system from the 
-        [MongoDB Download Center](https://www.mongodb.com/download-center/community?jmp=docs).
+    a.) Download the MongoDB .tar.gz tarball. Download the tarball for your system from the above mentioned link .
     b.) Extract the files from the downloaded archive.
         tar -zxvf mongodb-macos-x86_64-4.2.1.tgz
     c.) Ensure the binaries are in a directory listed in your PATH environment variable.
